@@ -1,4 +1,7 @@
 def fizzbuzz n
-	ans = {0 => "FizzBuzz", 1 => 1, 2 => 2}
-	ans[n]
+	result = ""
+	result << "Fizz" if n%3 == 0
+	result << "Buzz" if n%5 == 0
+	return result unless result =="" 
+	return n
 end
