@@ -14,6 +14,10 @@ describe "Fizzbuzz " do
 	it "should return 2 for 2" do
 		expect(fizzbuzz(2)).to eq(2)
 	end
+
+	it "should return Fizz for 3" do
+		expect(fizzbuzz(3)).to eq("Fizz")
+	end
 end
 
 

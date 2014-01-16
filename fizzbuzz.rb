@@ -1,4 +1,4 @@
 def fizzbuzz n
-	return 1 if n == 1
-	"FizzBuzz"
+	ans = {0 => "FizzBuzz", 1 => 1, 2 => 2}
+	ans[n]
 end
