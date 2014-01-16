@@ -27,6 +27,9 @@ describe "Fizzbuzz " do
 		expect(fizzbuzz([1])).to eq([1])
 	end
 
+	it "should return [1,2,Fizz] for [1,2,3]" do
+		expect(fizzbuzz([1,2,3])).to eq([1,2,"Fizz"])
+	end
 
 end
 
